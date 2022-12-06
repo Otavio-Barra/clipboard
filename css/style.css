@@ -1,0 +1,50 @@
+.center-section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-img .logo-svg {
+  margin-bottom: 4rem;
+}
+
+.title {
+  color: var(--Dark-Grayish-Blue);
+  font-size: min(5vw, 3.5rem);
+  margin-bottom: 2rem;
+}
+
+.text {
+  color: var(--Grayish-Blue);
+  font-size: min(2.5vw, 1.6rem);
+  padding: 0 15%;
+  margin-bottom: 4rem;
+}
+
+.contaier-btn {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
+  color: #fff;
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: min(2.5vw, 1.6rem);
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.btn-ios {
+  background-color: var(--Strong-Cyan);
+}
+.btn-mac {
+  background-color: var(--Light-Blue);
+}
