@@ -1,5 +1,7 @@
-.center-section {
+.initial-section {
   height: 100vh;
+}
+.center-section {
   display: flex;
   flex-direction: column;
   justify-items: center;
@@ -9,4 +11,22 @@
 
 .container-img .logo-svg {
   margin-bottom: 4rem;
+}
+
+.keep-track-section {
+  padding: 2rem 0;
+}
+
+.quick-search-section.center-section {
+  flex-direction: row;
+}
+
+.img-desk img {
+  width: 100%;
+  position: relative;
+  left: -25%;
+}
+
+.texts-container {
+  text-align: left;
 }

@@ -1,13 +1,28 @@
 .title {
   color: var(--Dark-Grayish-Blue);
-  font-size: min(5vw, 3.5rem);
+  font-size: min(8.7vw, 3.5rem);
   margin-bottom: 2rem;
 }
 
 .text {
   color: var(--Grayish-Blue);
-  font-size: min(2.5vw, 1.6rem);
-  padding: 0 15%;
+  font-size: min(4.4vw, 1.5rem);
+  padding: 0 13%;
   margin-bottom: 4rem;
   line-height: 160%;
+}
+
+.sub-title {
+  color: var(--Dark-Grayish-Blue);
+  font-size: min(7.5vw, 2.5rem);
+  margin-bottom: 2rem;
+}
+
+h3 {
+  color: var(--Dark-Grayish-Blue);
+  font-size: min(5.5vw, 1.5rem);
+  margin-bottom: 1rem;
+}
+.text.other-padding {
+  padding: 0 30% 0 0;
 }
