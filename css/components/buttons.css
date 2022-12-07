@@ -1,0 +1,29 @@
+.contaier-btn {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  border: none;
+  padding: 0.8rem 2.2rem;
+  border-radius: 50px;
+  color: #fff;
+  box-shadow: inset 0px -4px 0px 0px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: min(3vw, 1.5rem);
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.btn-ios {
+  background-color: var(--Strong-Cyan);
+}
+.btn-mac {
+  background-color: var(--Light-Blue);
+}
+@media (max-width: 575.98px) {
+  .btn {
+    font-size: min(4.2vw, 1.5rem);
+  }
+}

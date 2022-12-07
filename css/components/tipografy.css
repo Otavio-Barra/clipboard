@@ -1,0 +1,13 @@
+.title {
+  color: var(--Dark-Grayish-Blue);
+  font-size: min(5vw, 3.5rem);
+  margin-bottom: 2rem;
+}
+
+.text {
+  color: var(--Grayish-Blue);
+  font-size: min(2.5vw, 1.6rem);
+  padding: 0 15%;
+  margin-bottom: 4rem;
+  line-height: 160%;
+}
