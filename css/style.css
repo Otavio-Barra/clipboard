@@ -19,14 +19,40 @@
 
 .quick-search-section.center-section {
   flex-direction: row;
+  align-items: center;
+  margin-bottom: 7rem;
 }
 
 .img-desk img {
-  width: 100%;
+  width: 120%;
   position: relative;
-  left: -25%;
+  left: -40%;
 }
 
 .texts-container {
   text-align: left;
+}
+.img-device img {
+  width: 80%;
+  margin-bottom: 5rem;
+}
+
+.supercharge-section .container-workflow {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 1rem;
+  align-items: baseline;
+  margin-bottom: 5rem;
+}
+.container-workflow .icon img {
+  margin-bottom: 2rem;
+}
+
+.sponsors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  margin-bottom: 5rem;
+  row-gap: 4rem;
 }

@@ -8,6 +8,9 @@
 body {
   background: url(/images/bg-header-desktop.png) top/contain no-repeat;
 }
+html {
+  scroll-behavior: smooth;
+}
 @media (max-width: 575.98px) {
   body {
     background: url(/images/bg-header-mobile.png) top/contain no-repeat;

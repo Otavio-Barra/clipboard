@@ -5,6 +5,7 @@
   .img-desk img {
     left: 0;
     margin-bottom: 5rem;
+    width: 100%;
   }
   .texts-container {
     text-align: center;
@@ -12,9 +13,16 @@
   .text.other-padding {
     padding: 0;
   }
+  .supercharge-section .container-workflow,
+  .sponsors {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 }
 @media (max-width: 890px) {
-  .text {
+  .text,
+  .initial-text.text,
+  .text.no-padding {
     padding: 0;
   }
 }
