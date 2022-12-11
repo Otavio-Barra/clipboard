@@ -18,12 +18,28 @@
 }
 .btn-ios {
   background-color: var(--Strong-Cyan);
+  -webkit-box-shadow: 9px 7px 32px 4.5px rgba(37, 186, 164, 0.38);
+  -moz-box-shadow: 9px 7px 32px 4.5px rgba(37, 186, 164, 0.38);
+  box-shadow: 9px 7px 32px 4.5px rgba(37, 186, 164, 0.38);
 }
 .btn-mac {
   background-color: var(--Light-Blue);
+  -webkit-box-shadow: 9px 7px 32px 4.5px rgba(97, 115, 255, 0.38);
+  -moz-box-shadow: 9px 7px 32px 4.5px rgba(97, 115, 255, 0.38);
+  box-shadow: 9px 7px 32px 4.5px rgba(97, 115, 255, 0.38);
 }
 @media (max-width: 575.98px) {
   .btn {
     font-size: min(4.2vw, 1.5rem);
+  }
+  .btn-mac {
+    -webkit-box-shadow: 0 12px 32px 4.5px rgba(97, 115, 255, 0.38);
+    -moz-box-shadow: 0 12px 32px 4.5px rgba(97, 115, 255, 0.38);
+    box-shadow: 0 12px 32px 4.5px rgba(97, 115, 255, 0.38);
+  }
+  .btn-ios {
+    -webkit-box-shadow: 0 0.5px 32px 4.5px rgba(37, 186, 164, 0.38);
+    -moz-box-shadow: 0 0.5px 32px 4.5px rgba(37, 186, 164, 0.38);
+    box-shadow: 0 0.5px 32px 4.5px rgba(37, 186, 164, 0.38);
   }
 }

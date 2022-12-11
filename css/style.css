@@ -56,3 +56,34 @@
   margin-bottom: 5rem;
   row-gap: 4rem;
 }
+
+.clipboard-section {
+  margin-bottom: 10rem;
+}
+
+footer {
+  background-color: hsla(202, 11%, 66%, 0.301);
+  padding: 3rem 0;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .logo img {
+  width: 50%;
+}
+footer .container .content-container {
+  display: flex;
+  gap: 4rem;
+}
+footer a {
+  text-decoration: none;
+  color: var(--Dark-Grayish-Blue);
+}
+footer a p {
+  margin-bottom: 1rem;
+}
+.social-icons img:nth-child(2) {
+  margin: 0 2rem;
+}

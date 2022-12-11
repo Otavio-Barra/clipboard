@@ -25,6 +25,20 @@
   .text.no-padding {
     padding: 0;
   }
+  footer .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  footer .container .logo {
+    text-align: center;
+  }
+  footer .container .content-container {
+    text-align: center;
+    flex-direction: column;
+    gap: 0;
+  }
 }
 @media (max-width: 575.98px) {
   .contaier-btn {
